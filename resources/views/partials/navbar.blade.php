@@ -60,10 +60,10 @@
            shadow-[0_20px_50px_rgba(0,0,0,0.15)]
            px-6 py-6 space-y-5 text-sm font-medium">
 
-        <a href="#" class="block hover:text-black">Home</a>
-        <a href="#" class="block hover:text-black">Services</a>
-        <a href="#" class="block hover:text-black">Projects</a>
-        <a href="#" class="block hover:text-black">About</a>
+        <a href="{{ route('home') }}" class="block hover:text-black">Home</a>
+        <a href="{{ route('services') }}" class="block hover:text-black">Services</a>
+        <a href="{{ route('projects') }}" class="block hover:text-black">Projects</a>
+        <a href="{{ route('about') }}" class="block hover:text-black">About</a>
 
         <a
             href="/contact"
