@@ -15,7 +15,7 @@
         <!-- Heading -->
         <div class="text-center max-w-3xl mx-auto">
             <h2 class="text-3xl sm:text-4xl font-semibold text-gray-900">
-                Why Choose <span class="text-[#1434A4]">Sita Interir</span>
+                Why Choose <span class="text-[#1434A4]">Sita Interior</span>
             </h2>
 
             <p class="mt-4 text-lg text-gray-600">
