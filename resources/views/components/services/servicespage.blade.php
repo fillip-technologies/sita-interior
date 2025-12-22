@@ -95,7 +95,7 @@
     ctaText="Get Cost for Washroom Design"
     :images="[
         'images/bathroom-sita-interior.jpg',
-        'images/bathroom-sita-interior.jpg',
+        'images/bathroom-sita-interior.jpgg',
         'images/bathroom-sita-interior.jpg'
     ]" />
 
