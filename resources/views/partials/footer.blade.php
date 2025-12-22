@@ -82,7 +82,20 @@
                 <a href="#" class="hover:text-white transition">Terms & Conditions</a>
             </div>
 
+            <span class="hidden sm:inline-block text-white/30">|</span>
+
+            <span class="text-white/60">
+                Designed &amp; Developed by
+                <a href="https://filliptechnologies.com"
+                    target="_blank"
+                    class="hover:text-white underline underline-offset-4 transition">
+                    Fillip Technologies
+                </a>
+            </span>
+
         </div>
+
+
 
     </div>
 </footer>

@@ -56,7 +56,7 @@
 
                 <span class="inline-block text-xs px-3 py-1 rounded-full
                              bg-[#1434A4]/10 text-[#1434A4]">
-                    New Vertical
+                    Our Different Wing
                 </span>
             </div>
 
