@@ -55,8 +55,8 @@
     timeline="Design Phase: 5–7 days · Execution Phase: 20–30 days"
     ctaText="Get Cost for Bedroom Design"
     :images="[
-        'images/bedroom.jpg',
-        'images/bedroom.jpg'
+        'images/BEDROOM.jpg',
+        'images/BEDROOM.jpg'
     ]" />
 
 
@@ -95,7 +95,7 @@
     ctaText="Get Cost for Washroom Design"
     :images="[
         'images/bathroom-sita-interior.jpg',
-        'images/bathroom-sita-interior.jpgg',
+        'images/bathroom-sita-interior.jpg',
         'images/bathroom-sita-interior.jpg'
     ]" />
 
