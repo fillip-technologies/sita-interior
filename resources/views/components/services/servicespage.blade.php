@@ -1,49 +1,8 @@
-<x-services.service-carousel
-    id="residential"
-    title="Residential Interior Design"
-    description="We offer complete residential interior design solutions that combine comfort, functionality, and timeless aesthetics. From planning to execution, every detail is designed around your lifestyle."
-    :includes="[
-        'Complete home interior planning',
-        'Space planning & layout optimization',
-        '3D design & visualization',
-        'Material, finish & color selection',
-        'Lighting & false ceiling design',
-        'Execution coordination support'
-    ]"
-    whoFor="Ideal for apartments, villas, independent homes, and full home interior projects."
-    timeline="Design Phase: 10–15 days · Execution Phase: Project-based"
-    ctaText="Get Cost for Residential Interiors"
-    :images="[
-        'images/res.jpg',
-        'images/livingroom.jpg',
-        'images/kit.jpg'
-    ]" />
-
-<x-services.service-carousel
-    id="living"
-    title="Living Room Design"
-    description="Our living room designs focus on comfort, elegance, and intelligent space planning."
-    :includes="[
-        'Space planning & layout optimization',
-        '3D design & visualization',
-        'Material & color selection',
-        'Lighting & false ceiling design',
-        'Execution support (optional)'
-    ]"
-    whoFor="Ideal for 2–3 BHK homes, villas, and premium apartments."
-    timeline="Design Phase: 7–10 days · Execution Phase: 30–45 days"
-    ctaText="Get Cost for Living Room Design"
-    :images="[
-        'images/livingroom.jpg',
-        'images/livingroom.jpg',
-        'images/livingroom.jpg'
-    ]" />
-
-
+{{-- Bedroom --}}
 <x-services.service-carousel
     id="bedroom"
-    title="Bedroom Design"
-    description="Our bedroom interior designs focus on comfort, relaxation, and personalized aesthetics. We create calm and functional bedroom spaces with smart storage and balanced lighting."
+    title="Bedroom Interior Design"
+    description="We design comfortable and functional bedrooms focused on relaxation, smart storage, and balanced lighting."
     :includes="[
         'Bedroom layout & furniture planning',
         'Wardrobe & storage design',
@@ -51,26 +10,51 @@
         'Color & material selection',
         '3D bedroom visualization'
     ]"
-    whoFor="Suitable for master bedrooms, guest rooms, kids’ rooms, and premium apartments."
+    whoFor="Ideal for guest bedrooms, kids’ rooms, and apartment bedrooms."
     timeline="Design Phase: 5–7 days · Execution Phase: 20–30 days"
-    ctaText="Get Cost for Bedroom Design"
+    ctaText="Book Consultation for Services "
     :images="[
-        'images/BEDROOM.jpg',
-        'images/BEDROOM.jpg'
+        'images/bedroom-1.PNG',
+        'images/BEDROOM.PNG',
+        '/images/com.PNG',
+        '/images/inter.jpg.PNG'
     ]" />
 
+{{-- Master Bedroom --}}
+<x-services.service-carousel
+    id="master-bedroom"
+    title="Master Bedroom Interior Design"
+    description="Luxury-focused master bedroom designs with premium finishes, customized wardrobes, and calming aesthetics."
+    :includes="[
+        'Luxury layout planning',
+        'Customized wardrobe & dresser',
+        'False ceiling & ambient lighting',
+        'Premium material & color selection',
+        '3D master bedroom visualization'
+    ]"
+    whoFor="Perfect for master bedrooms in apartments and villas."
+    timeline="Design Phase: 7–10 days · Execution Phase: 25–35 days"
+    ctaText="Book Consultation for Services "
+    :images="[
+        'images/bedroom-1.PNG',
+        'images/BEDROOM.PNG',
+        '/images/com.PNG',
+        '/images/inter.jpg.PNG'
+    ]" />
 
+{{-- Kitchen --}}
 <x-services.service-carousel
     id="kitchen"
-    title="Kitchen Design"
-    description="We design modular and custom kitchens that balance aesthetics with efficiency."
+    title="Kitchen Interior Design"
+    description="Efficient and modern modular kitchens designed with smart storage and ergonomic planning."
     :includes="[
         'Modular & custom kitchen layouts',
         'Storage & workflow planning',
         'Countertop & finish selection',
-        'Lighting & appliance integration'
+        'Lighting & appliance integration',
+        'Ergonomic design'
     ]"
-    whoFor="Perfect for apartments, independent homes, and renovation projects."
+    whoFor="Ideal for apartments, homes, and renovation projects."
     timeline="Design Phase: 5–7 days · Execution Phase: 25–35 days"
     ctaText="Book Kitchen Consultation"
     :images="[
@@ -78,43 +62,95 @@
         'images/kit.jpg'
     ]" />
 
-
+{{-- Hall --}}
 <x-services.service-carousel
-    id="washroom"
-    title="Washroom Design"
-    description="Our washroom designs focus on hygiene, functionality, and modern aesthetics. We create well-planned spaces that feel spacious, elegant, and easy to maintain."
+    id="hall"
+    title="Hall Interior Design"
+    description="Elegant hall designs with open layouts, modern lighting, and functional seating arrangements."
     :includes="[
-        'Washroom layout planning & space optimization',
-        'Sanitaryware & fitting selection',
-        'Tile, finish & waterproofing guidance',
-        'Lighting, mirror & storage design',
-        'Ventilation & moisture control planning'
+        'Hall layout & seating planning',
+        'False ceiling & lighting design',
+        'TV unit & storage solutions',
+        'Color & finish selection',
+        '3D hall visualization'
     ]"
-    whoFor="Ideal for apartments, villas, guest washrooms, and renovation projects."
-    timeline="Design Phase: 5–7 days · Execution Phase: 20–30 days"
-    ctaText="Get Cost for Washroom Design"
+    whoFor="Suitable for apartments, villas, and independent houses."
+    timeline="Design Phase: 7–10 days · Execution Phase: 30–40 days"
+    ctaText="Book Consultation for Services "
     :images="[
-        'images/bathroom-sita-interior.jpg',
-        'images/bathroom-sita-interior.jpg',
-        'images/bathroom-sita-interior.jpg'
+        'images/livingroom.PNG',
+        'images/proj.PNG',
+        'images/livingroom-1.PNG',
+           'images/livingroom-2.PNG',
+              'images/livingroom-3.PNG'
     ]" />
 
+{{-- Drawing Room --}}
 <x-services.service-carousel
-    id="commercial"
-    title="Commercial Interior Design"
-    description="We design functional and brand-driven commercial interiors that enhance productivity and customer experience through smart layouts and professional aesthetics."
+    id="drawing-room"
+    title="Drawing Room Interior Design"
+    description="Formal and elegant drawing room interiors that create a strong first impression."
     :includes="[
-        'Commercial space planning & layouts',
-        'Office workstation & zoning design',
-        'Brand-focused material & finish selection',
-        'Lighting & ceiling design',
-        'Design coordination for execution'
+        'Seating & layout planning',
+        'Decorative lighting design',
+        'Premium material & color selection',
+        'Accent walls & design elements',
+        '3D visualization'
     ]"
-    whoFor="Ideal for offices, studios, retail spaces, clinics, and commercial establishments."
-    timeline="Design Phase: 7–12 days · Execution Phase: Project-based"
-    ctaText="Get Cost for Commercial Interiors"
+    whoFor="Ideal for formal living spaces in homes and villas."
+    timeline="Design Phase: 7–10 days · Execution Phase: 30–45 days"
+    ctaText="Book Consultation for Services "
     :images="[
-        'images/com.jpg',
-        'images/com.jpg',
-        'images/com.jpg'
+     'images/livingroom-3.PNG',
+     'images/proj.PNG',
+        'images/livingroom.PNG',    
+        'images/livingroom-1.PNG',
+           'images/livingroom-2.PNG'
+             
+    ]" />
+
+{{-- Dining Room --}}
+<x-services.service-carousel
+    id="dining"
+    title="Dining Room Interior Design"
+    description="Comfortable and stylish dining spaces designed for everyday meals and gatherings."
+    :includes="[
+        'Dining layout & table placement',
+        'Crockery unit & storage design',
+        'Lighting & ceiling planning',
+        'Material & color coordination',
+        '3D dining visualization'
+    ]"
+    whoFor="Suitable for apartments, villas, and open layouts."
+    timeline="Design Phase: 5–7 days · Execution Phase: 20–30 days"
+    ctaText="Book Consultation for Services "
+    :images="[
+      'images/livingroom-1.PNG',
+         'images/proj.PNG',
+     'images/livingroom-3.PNG',
+  
+        'images/livingroom.PNG',    
+       
+           'images/livingroom-2.PNG'
+             
+    ]" />
+
+{{-- Washroom --}}
+<x-services.service-carousel
+    id="washroom"
+    title="Washroom Interior Design"
+    description="Modern washroom designs focused on hygiene, durability, and space optimization."
+    :includes="[
+        'Washroom layout planning',
+        'Sanitaryware & fitting selection',
+        'Tile & waterproofing guidance',
+        'Mirror, storage & lighting design',
+        'Ventilation planning'
+    ]"
+    whoFor="Ideal for apartments, villas, and renovation projects."
+    timeline="Design Phase: 5–7 days · Execution Phase: 20–30 days"
+    ctaText="Book Consultation for Services"
+    :images="[
+        'images/bathroom-sita-interior.jpg',
+        'images/bathroom-sita-interior.jpg'
     ]" />

@@ -119,8 +119,6 @@
 
 </div>
 
-
-
 <!-- ================= GALLERY ================= -->
 <div id="gallery"></div>
 
@@ -129,31 +127,31 @@
     const projects = [{
             title: "Urban Living",
             space: "living",
-            home: "2bhk",
+
             img: "/images/com.jpg"
         },
         {
             title: "Minimal Bedroom",
             space: "bedroom",
-            home: "1bhk",
+
             img: "/images/hero-section.avif"
         },
         {
             title: "Open Kitchen",
             space: "kitchen",
-            home: "3bhk",
+
             img: "/images/inter.jpg"
         },
         {
             title: "Work From Home",
             space: "office",
-            home: "2bhk",
+
             img: "/images/kit.jpg"
         },
         {
             title: "Work From Home",
             space: "office",
-            home: "2bhk",
+
             img: "/images/pla.avif"
         }
     ];

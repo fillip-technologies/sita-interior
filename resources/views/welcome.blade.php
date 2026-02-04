@@ -20,8 +20,7 @@
 <!-- about section home page -->
 <x-home.about />
 
-<!-- wprojects -->
-<x-home.projectssection />
+
 
 <!--before-after-section  -->
 

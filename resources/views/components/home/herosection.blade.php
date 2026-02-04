@@ -5,7 +5,7 @@
     <!-- Background -->
     <div class="absolute inset-0 -z-10">
         <img
-            src="{{ asset('images/inter.jpg') }}"
+            src="{{ asset('images/inter.jpg.PNG') }}"
             class="w-full h-full object-cover object-center"
             alt="Hero" />
 
@@ -42,7 +42,7 @@
                        border border-white/20 rounded-2xl
                        overflow-hidden shadow-xl">
                 <img
-                    src="{{ asset('images/proj.jpg') }}"
+                    src="{{ asset('images/proj.PNG') }}"
                     class="w-full h-[220px] object-cover"
                     alt="Project" />
 

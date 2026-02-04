@@ -29,7 +29,7 @@
             id: "01",
             title: "Residential Interiors",
             desc: "Personalized residential interior design services in Patna, creating comfortable, functional, and elegant homes tailored to your lifestyle.",
-            image: "/images/res.jpg",
+            image: "/images/com.PNG",
             link: "/services",
             cta: "Explore Residential Interiors"
         },
@@ -53,7 +53,7 @@
             id: "04",
             title: "Living Room Designs",
             desc: "Living room interior design services in Patna that balance comfort, aesthetics, and functionality for everyday living and social gatherings.",
-            image: "/images/livingroom.jpg",
+            image: "/images/livingroom.PNG",
             link: "/services",
             cta: "Explore Living Room Designs"
         },
@@ -61,7 +61,7 @@
             id: "05",
             title: "Bedroom Designs",
             desc: "Bedroom interior design in Patna focused on comfort, relaxation, smart storage, and personalized design aesthetics.",
-            image: "/images/BEDROOM.jpg",
+            image: "/images/BEDROOM.PNG",
             link: "/services",
             cta: "Explore Bedroom Designs"
         },
@@ -69,7 +69,7 @@
             id: "06",
             title: "Washroom Designs",
             desc: "Modern washroom and bathroom interior design services in Patna with a focus on functionality, hygiene, durability, and elegant finishes.",
-            image: "/images/bathroom-sita-interior.jpg",
+            image: "/images/bathrooms.jpg",
             link: "/services",
             cta: "Explore Washroom Designs"
         }

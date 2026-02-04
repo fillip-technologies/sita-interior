@@ -37,7 +37,7 @@
                     Contact
                 </a>
 
-                <!-- BURGER -->
+                <!-- hamburger -->
                 <button
                     id="menuBtn"
                     class="lg:hidden p-2 rounded-full hover:bg-gray-100 transition">
