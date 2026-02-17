@@ -29,8 +29,24 @@
         </a>
     </div>
 
-    <!-- Carousel -->
+    <!-- Image Section -->
     <div class="relative mb-12">
+
+        @if (count($images) === 1)
+
+        <!-- SINGLE IMAGE -->
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="h-[320px] sm:h-[400px] rounded-2xl overflow-hidden">
+                <img
+                    src="{{ asset($images[0]) }}"
+                    alt="{{ $title }}"
+                    class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        @else
+
+        <!-- CAROUSEL (MULTIPLE IMAGES) -->
 
         <!-- Soft glow edges -->
         <div class="pointer-events-none absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-white to-transparent z-10"></div>
@@ -45,21 +61,24 @@
             @foreach (array_merge($images, $images) as $image)
             <div
                 class="min-w-[320px] sm:min-w-[400px] lg:min-w-[460px]
-                           h-[280px] snap-start rounded-2xl overflow-hidden group">
+                               h-[280px] snap-start rounded-2xl overflow-hidden group">
 
                 <img
                     src="{{ asset($image) }}"
-                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    alt="{{ $title }}" />
+                    alt="{{ $title }}"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
             </div>
             @endforeach
+
         </div>
+
+        @endif
     </div>
 
     <!-- Service Details -->
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
 
-        <!-- Left: Description + Includes -->
+        <!-- Left -->
         <div>
             <p class="text-gray-700 text-lg leading-relaxed mb-8">
                 {{ $description }}
@@ -79,7 +98,7 @@
             </ul>
         </div>
 
-        <!-- Right: Who for + Timeline + CTA -->
+        <!-- Right -->
         <div class="bg-gray-50 rounded-3xl p-8 flex flex-col justify-between">
 
             <div class="space-y-6">

@@ -58,32 +58,11 @@
     timeline="Design Phase: 5–7 days · Execution Phase: 25–35 days"
     ctaText="Book Kitchen Consultation"
     :images="[
-        'images/kit.jpg',
         'images/kit.jpg'
+       
     ]" />
 
-{{-- Hall --}}
-<x-services.service-carousel
-    id="hall"
-    title="Hall Interior Design"
-    description="Elegant hall designs with open layouts, modern lighting, and functional seating arrangements."
-    :includes="[
-        'Hall layout & seating planning',
-        'False ceiling & lighting design',
-        'TV unit & storage solutions',
-        'Color & finish selection',
-        '3D hall visualization'
-    ]"
-    whoFor="Suitable for apartments, villas, and independent houses."
-    timeline="Design Phase: 7–10 days · Execution Phase: 30–40 days"
-    ctaText="Book Consultation for Services "
-    :images="[
-        'images/livingroom.PNG',
-        'images/proj.PNG',
-        'images/livingroom-1.PNG',
-           'images/livingroom-2.PNG',
-              'images/livingroom-3.PNG'
-    ]" />
+
 
 {{-- Drawing Room --}}
 <x-services.service-carousel
@@ -110,7 +89,7 @@
     ]" />
 
 {{-- Dining Room --}}
-<x-services.service-carousel
+<!-- <x-services.service-carousel
     id="dining"
     title="Dining Room Interior Design"
     description="Comfortable and stylish dining spaces designed for everyday meals and gatherings."
@@ -133,7 +112,7 @@
        
            'images/livingroom-2.PNG'
              
-    ]" />
+    ]" /> -->
 
 {{-- Washroom --}}
 <x-services.service-carousel
@@ -152,5 +131,5 @@
     ctaText="Book Consultation for Services"
     :images="[
         'images/bathroom-sita-interior.jpg',
-        'images/bathroom-sita-interior.jpg'
+        'images/bathroom-sita-interior-2.jpg'
     ]" />

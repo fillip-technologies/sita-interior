@@ -10,9 +10,25 @@
              transition-all duration-300">
 
             <!-- LOGO -->
-            <span class="text-base sm:text-lg font-semibold text-gray-900">
-                Sita<span class="text-gray-500">Interior</span>
-            </span>
+            <div class="flex items-center gap-3">
+                <!-- Logo -->
+                <img
+                    src="{{ asset('images/sita-interior.png') }}"
+                    alt="Sita Interior Logo"
+                    class="h-12 w-auto">
+
+                <!-- Brand Text -->
+                <div class="leading-tight">
+                    <div class="text-2xl font-bold text-gray-900 tracking-wide">
+                        Sita
+                    </div>
+                    <div class="text-sm font-medium text-gray-500 tracking-widest uppercase">
+                        Interior
+                    </div>
+                </div>
+            </div>
+
+
 
             <!-- DESKTOP NAV -->
             <nav class="hidden lg:flex items-center gap-10 text-[15px] font-medium text-gray-700">
