@@ -45,7 +45,7 @@
             id: "03",
             title: "Modular Kitchens",
             desc: "Modern modular kitchen designs in Patna featuring smart layouts, efficient storage solutions, and durable, stylish finishes.",
-            image: "/images/kit.jpg",
+            image: "/images/kitchen-sita-interior.png",
             link: "/services",
             cta: "Explore Modular Kitchens"
         },
@@ -69,7 +69,7 @@
             id: "06",
             title: "Washroom Designs",
             desc: "Modern washroom and bathroom interior design services in Patna with a focus on functionality, hygiene, durability, and elegant finishes.",
-            image: "/images/bathrooms.jpg",
+            image: "/images/washroom-1.png",
             link: "/services",
             cta: "Explore Washroom Designs"
         }

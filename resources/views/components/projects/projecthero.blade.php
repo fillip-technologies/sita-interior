@@ -24,8 +24,7 @@
     </div>
 </section>
 
-<!-- wprojects -->
-<x-home.projectssection />
+
 
 <x-home.afterhero />
 

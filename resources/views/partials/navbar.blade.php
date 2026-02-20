@@ -10,23 +10,23 @@
              transition-all duration-300">
 
             <!-- LOGO -->
-            <div class="flex items-center gap-3">
-                <!-- Logo -->
-                <img
-                    src="{{ asset('images/sita-interior.png') }}"
-                    alt="Sita Interior Logo"
-                    class="h-12 w-auto">
+           <a href="{{ url('/') }}" class="flex items-center gap-3">
+    <!-- Logo -->
+    <img
+        src="{{ asset('images/sita-interior.png') }}"
+        alt="Sita Interior Logo"
+        class="h-12 w-auto">
 
-                <!-- Brand Text -->
-                <div class="leading-tight">
-                    <div class="text-2xl font-bold text-gray-900 tracking-wide">
-                        Sita
-                    </div>
-                    <div class="text-sm font-medium text-gray-500 tracking-widest uppercase">
-                        Interior
-                    </div>
-                </div>
-            </div>
+    <!-- Brand Text -->
+    <div class="leading-tight">
+        <div class="text-2xl font-bold text-gray-900 tracking-wide">
+            Sita
+        </div>
+        <div class="text-sm font-medium text-gray-500 tracking-widest uppercase">
+            Interior
+        </div>
+    </div>
+</a>
 
 
 

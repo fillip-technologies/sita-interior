@@ -58,8 +58,9 @@
     timeline="Design Phase: 5–7 days · Execution Phase: 25–35 days"
     ctaText="Book Kitchen Consultation"
     :images="[
-        'images/kit.jpg'
-       
+        'images/kitchen-sita-interior.png',
+         'images/kitchen-2.png',
+           'images/kitchen-3.png'
     ]" />
 
 
@@ -130,6 +131,8 @@
     timeline="Design Phase: 5–7 days · Execution Phase: 20–30 days"
     ctaText="Book Consultation for Services"
     :images="[
-        'images/bathroom-sita-interior.jpg',
-        'images/bathroom-sita-interior-2.jpg'
+        'images/washroom-1.png',
+        'images/washroom-2.png',
+        'images/washroom-3.png',
+        'images/washroom-4.png'
     ]" />
