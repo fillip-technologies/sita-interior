@@ -82,7 +82,7 @@
         <a href="{{ route('about') }}" class="block hover:text-black">About</a>
 
         <a
-            href="/contact"
+            href="{{ route('contact') }}"
             class="block mt-4 text-center px-5 py-2 rounded-full
              bg-black text-white text-sm">
             Contact

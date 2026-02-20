@@ -27,4 +27,9 @@ class HomeController extends Controller
     {
         return view('pages.about');
     }
+    // contact
+    public function contact()
+    {
+        return view('pages.contact');   
+    }
 }
