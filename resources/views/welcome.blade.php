@@ -33,8 +33,7 @@
 <!-- sitaarch -->
 <x-home.sitaarch />
 
-<!--testimonials-section  -->
-<!-- <x-home.testimonials /> -->
+
 
 <x-home.faq />
 
