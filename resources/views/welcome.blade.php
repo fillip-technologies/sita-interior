@@ -6,7 +6,6 @@
 
 <x-home.herosection />
 
-<x-home.afterhero />
 
 
 
@@ -29,6 +28,8 @@
 
 <!-- work-flow -->
 <x-home.workflow />
+
+<x-home.afterhero />
 
 <!-- sitaarch -->
 <x-home.sitaarch />
