@@ -1,59 +1,49 @@
-<header class="fixed top-4 inset-x-0 z-[9999]">
+<header class="fixed top-6 inset-x-0 z-[9999]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div
             class="flex items-center justify-between
-             h-16 sm:h-20
-             px-5 sm:px-10
-             rounded-full
-             bg-white
-             shadow-[0_12px_40px_rgba(0,0,0,0.12)]
-             transition-all duration-300">
+                   h-16 sm:h-18
+                   px-6 sm:px-10
+                   rounded-full
+                   bg-white/90 backdrop-blur-md
+                   border border-gray-200
+                   shadow-[0_8px_30px_rgba(0,0,0,0.08)]
+                   transition-all duration-300">
 
             <!-- LOGO -->
-           <a href="{{ url('/') }}" class="flex items-center gap-3">
-    <!-- Logo -->
-    <img
-        src="{{ asset('images/sita-interior.png') }}"
-        alt="Sita Interior Logo"
-        class="h-12 w-auto">
+            <a href="{{ url('/') }}" class="flex items-center h-full">
 
-    <!-- Brand Text -->
-    <div class="leading-tight">
-        <div class="text-2xl font-bold text-gray-900 tracking-wide">
-            Sita
-        </div>
-        <div class="text-sm font-medium text-gray-500 tracking-widest uppercase">
-            Interior
-        </div>
-    </div>
-</a>
+                <div class="flex items-center justify-center h-full">
+                    <img
+                        src="{{ asset('images/sita-interior.png') }}"
+                        alt="Sita Interior Logo"
+                        class="h-10 w-auto object-contain">
+                </div>
 
-
+                <span class="ml-2 text-xl font-semibold tracking-wide text-gray-900 uppercase">
+                    Sita Interior
+                </span>
+            </a>
 
             <!-- DESKTOP NAV -->
-            <nav class="hidden lg:flex items-center gap-10 text-[15px] font-medium text-gray-700">
+            <nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium text-gray-600">
                 <a href="{{ route('home') }}" class="hover:text-black transition">Home</a>
-                <a href="{{ route('services')}}" class="hover:text-black transition">
-                    Services
-                </a>
-
-
+                <a href="{{ route('services')}}" class="hover:text-black transition">Services</a>
                 <a href="{{ route('projects') }}" class="hover:text-black transition">Projects</a>
                 <a href="{{route('about') }}" class="hover:text-black transition">About</a>
             </nav>
 
             <!-- RIGHT -->
             <div class="flex items-center gap-3">
-                <!-- CTA (hide on small mobile if needed) -->
                 <a
-                    href="/contact"
-                    class="hidden sm:inline-flex px-5 py-2 rounded-full
-                 bg-black text-white text-sm
-                 hover:bg-black/90 transition">
+                    href="{{ route('contact') }}"
+                    class="hidden sm:inline-flex px-6 py-2.5 rounded-full
+                           bg-black text-white text-sm font-medium
+                           hover:bg-gray-800 transition duration-300">
                     Contact
                 </a>
 
-                <!-- hamburger -->
+                <!-- Hamburger -->
                 <button
                     id="menuBtn"
                     class="lg:hidden p-2 rounded-full hover:bg-gray-100 transition">
@@ -64,28 +54,6 @@
                     </svg>
                 </button>
             </div>
-
         </div>
-    </div>
-
-    <!-- ================= MOBILE MENU ================= -->
-    <div
-        id="mobileMenu"
-        class="hidden lg:hidden mt-3 mx-4 sm:mx-6
-           rounded-3xl bg-white
-           shadow-[0_20px_50px_rgba(0,0,0,0.15)]
-           px-6 py-6 space-y-5 text-sm font-medium">
-
-        <a href="{{ route('home') }}" class="block hover:text-black">Home</a>
-        <a href="{{ route('services') }}" class="block hover:text-black">Services</a>
-        <a href="{{ route('projects') }}" class="block hover:text-black">Projects</a>
-        <a href="{{ route('about') }}" class="block hover:text-black">About</a>
-
-        <a
-            href="{{ route('contact') }}"
-            class="block mt-4 text-center px-5 py-2 rounded-full
-             bg-black text-white text-sm">
-            Contact
-        </a>
     </div>
 </header>
