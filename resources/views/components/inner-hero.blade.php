@@ -18,7 +18,8 @@
         <img
             src="{{ asset($image) }}"
             alt="{{ $title }}"
-            class="w-full h-full object-cover object-center" />
+            class="w-full h-full object-cover
+             object-center" />
 
         <!-- Dark overlay -->
         <div class="absolute inset-0 bg-black/50"></div>

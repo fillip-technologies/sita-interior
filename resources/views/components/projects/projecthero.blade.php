@@ -2,7 +2,7 @@
     title="Our Projects"
     description="A curated selection of spaces crafted with
     purpose, precision, and timeless aesthetics."
-    image="images/interior-sita.jpg"
+    image="images/sita-interior-sketch.jpg"
 
     primaryCtaText="Request a Consultation"
     primaryCtaLink="/contact" />

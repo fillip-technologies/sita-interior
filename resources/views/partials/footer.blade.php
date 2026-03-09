@@ -16,9 +16,10 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
 
             <!-- LEFT : Brand -->
+            <!-- LEFT : Brand -->
             <div>
                 <h2 class="text-[64px] sm:text-[88px] lg:text-[110px]
-                           font-bold leading-none tracking-tight">
+               font-bold leading-none tracking-tight">
                     Sita
                     <br />
                     <span class="text-white/60">Interior</span>
@@ -28,6 +29,23 @@
                     Thoughtfully designed interiors that balance aesthetics,
                     functionality, and timeless comfort.
                 </p>
+
+                <!-- Contact Info -->
+                <div class="mt-8 space-y-3 text-white/70 text-sm">
+                    <p class="flex items-center gap-3">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+919204152266" class="hover:text-white transition">
+                            +91 9204152266
+                        </a>
+                    </p>
+
+                    <p class="flex items-center gap-3">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:info@sitainterior.com" class="hover:text-white transition">
+                            sitainteriorpatna@gmail.com
+                        </a>
+                    </p>
+                </div>
             </div>
 
             <!-- RIGHT : Navigation + Social -->

@@ -2,7 +2,7 @@
     title="About Sita Interior"
     description="A curated selection of spaces crafted with
     purpose, precision, and timeless aesthetics."
-    image="images/com.jpg"
+    image="images/sita-int.jpg"
 
     primaryCtaText="Request a Consultation"
     primaryCtaLink="/contact" />

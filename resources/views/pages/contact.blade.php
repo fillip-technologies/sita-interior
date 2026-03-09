@@ -72,17 +72,19 @@
 
                 <div>
                     <h3 class="font-semibold text-gray-800">📍 Office Address</h3>
-                    <p>Patna, Bihar, India</p>
+                    <p>Hanuman Nagar, Kankarbagh 90 Feet
+                        Beside Indian Bank
+                        Patna - 800020, Bihar</p>
                 </div>
 
                 <div>
                     <h3 class="font-semibold text-gray-800">📞 Phone</h3>
-                    <p>+91 98765 43210</p>
+                    <p>+91 9204152266</p>
                 </div>
 
                 <div>
                     <h3 class="font-semibold text-gray-800">📧 Email</h3>
-                    <p>info@sitainterior.com</p>
+                    <p>sitainteriorpatna@gmail.com</p>
                 </div>
 
                 <div>
@@ -94,11 +96,16 @@
 
             <!-- Map -->
             <div class="mt-10 rounded-2xl overflow-hidden shadow-md">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb="
-                    width="100%" height="250" style="border:0;"
-                    allowfullscreen="" loading="lazy">
-                </iframe>
+                <!-- Map -->
+                <div class="mt-12 rounded-xl overflow-hidden border border-white/20">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5419109862023!2d85.15285147850513!3d25.585105957792564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed590050917f9d%3A0xe0d7e2f4264fed30!2sSita%20architectural%20consultancy%20(SAC)!5e1!3m2!1sen!2sin!4v1773048936893!5m2!1sen!2sin"
+                        class="w-full h-[220px]"
+                        style="border:0;"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
 
